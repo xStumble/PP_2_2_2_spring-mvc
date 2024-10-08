@@ -1,0 +1,21 @@
+body {
+	padding: 0 25% 0 25%;
+}
+
+table, th, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+table {
+	width: 100%;
+	font-size: 24px;
+}
+
+tr:first-child {
+	background-color: lightgray;
+}
+
+td {
+	text-align: center;
+}

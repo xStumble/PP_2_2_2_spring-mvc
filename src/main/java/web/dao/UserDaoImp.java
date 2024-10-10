@@ -1,9 +1,11 @@
 package web.dao;
 
+import org.springframework.stereotype.Repository;
 import web.model.Car;
 
 import java.util.List;
 
+@Repository
 public class UserDaoImp implements UserDao {
 
     private final List<Car> cars = List.of(
